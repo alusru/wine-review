@@ -28,7 +28,16 @@ function App() {
     </div>
 </nav>
 
-
+<section id="sidebar">
+    <div className="border-bottom pb-2 ml-2">
+        <h4 id="burgundy">Filters</h4>
+    </div>
+    <div className="py-2 border-bottom ml-3">
+        <h6 className="font-weight-bold">Categories</h6>
+        <div id="orange"><span className="fa fa-minus"></span></div>
+        Mbuso
+    </div>
+</section>
 
    
      
