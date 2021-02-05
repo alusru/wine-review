@@ -1,6 +1,6 @@
 
 import './App.css';
-import {ReactiveBase,DataSearch} from '@appbaseio/reactivesearch';
+import {ReactiveBase,DataSearch, MultiList } from '@appbaseio/reactivesearch';
 
 function App() {
   return (
@@ -33,13 +33,15 @@ function App() {
         <h4 id="burgundy">Filters</h4>
     </div>
     <div className="py-2 border-bottom ml-3">
-        <h6 className="font-weight-bold">Categories</h6>
+        
         <div id="orange"><span className="fa fa-minus"></span></div>
-        Mbuso
+        <ReactiveBase app="wine" url="https://SRl6mJD2L:bd3e68cd-06e4-4336-af86-7c9890ddfe67@wine-data-xvryxsf-arc.searchbase.io">
+            <MultiList componentId="VarietySensor" dataField="variety.keyword" />
+        </ReactiveBase>
     </div>
 </section>
 
-   
+
      
       
     </div>
