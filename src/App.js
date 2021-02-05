@@ -1,6 +1,6 @@
 
 import './App.css';
-import {ReactiveBase,DataSearch, MultiList } from '@appbaseio/reactivesearch';
+import {ReactiveBase,DataSearch, MultiList, ReactiveList } from '@appbaseio/reactivesearch';
 
 function App() {
   return (
